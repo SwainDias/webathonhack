@@ -2,7 +2,12 @@
 
 A modern web experience featuring a loading animation, infinite marquee, and interactive navbar built with React and Vite.
 
+##Team name- webhackers
+team leader- swain dias
+
 ## 🚀 Features
+
+elements implemented:
 
 ### Loading Page
 - Animated counter from 0-100
@@ -35,25 +40,8 @@ A modern web experience featuring a loading animation, infinite marquee, and int
 - **Custom Fonts** - Plain and SilkSerif fonts
 - **Git** - Version control
 
-## 📁 Project Structure
-
-```
-webathonhack/
-├── src/
-│   ├── components/
-│   │   ├── LoaderPage.jsx      # Loading animation component
-│   │   ├── InfiniteMarquee.jsx # Image marquee component
-│   │   └── Navbar.jsx          # Navigation popup component
-│   ├── assets/
-│   │   ├── images/             # Sample images for marquee
-│   │   └── fonts/              # Custom font files
-│   ├── App.jsx                 # Main application component
-│   ├── main.jsx               # Application entry point
-│   └── index.css              # Global styles and animations
-├── public/                    # Static assets
-├── package.json              # Dependencies and scripts
-└── README.md                 # Project documentation
-```
+##Team name- webhackers
+team leader- swain dias
 
 ## 🚀 Getting Started
 
@@ -61,32 +49,8 @@ webathonhack/
 - Node.js (version 16 or higher)
 - npm or yarn package manager
 
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone <your-repo-url>
-   cd webathonhack
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server**
-   ```bash
-   npm run dev
-   ```
-
-4. **Open your browser**
-   Navigate to `http://localhost:5173` to view the application
 
 ### Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
 
 ## 🎨 Customization
 
