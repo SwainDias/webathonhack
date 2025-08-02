@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Plain';
+    src: url('./assets/fonts/plain-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'SilkSerif';
+    src: url('./assets/fonts/silkserif-lightitalic-webfont.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  body {
+    background-color: #000; /* or just 'black' */
+    
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .animate-marquee {
+    animation: marquee 11s linear infinite;
+  }
+  
+  .pause-animation {
+    animation-play-state: paused !important;
+  }
+  
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
